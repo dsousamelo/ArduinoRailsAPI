@@ -17,13 +17,13 @@ int ldrValor = 0; //Valor lido do LDR
 byte mac[] = {  
   0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x02 };  
 
-IPAddress  ip(172,18,9,100);
+IPAddress  ip(xxx,xx,x,xxx);
 char b[2];
 int temperature;
 String contentI = "{\"value\":";
 String contentI2 = "{\"state\":";
-const char* ssid     = "TP-LINK_8DDDAE";
-const char* password = "labiotm06";
+const char* ssid     = "xxxxxxxx";
+const char* password = "xxx";
 WiFiClient client;
 //////////////////////////////////////////////////////////
 void interruptHandler(){
